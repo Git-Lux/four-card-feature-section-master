@@ -1,0 +1,159 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 400px;
+}
+
+.supervisor {
+    border-radius: 10px;
+    border-top: 4px solid cyan;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 5em;
+}
+
+.team_builder {
+    border-radius: 10px;
+    border-top: 4px solid red;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 2em;
+}
+
+.karma {
+    border-radius: 10px;
+    border-top: 4px solid orange;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 2em;
+}
+
+.calculator {
+    border-radius: 10px;
+    border-top: 4px solid blue;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 2em;
+}
+
+.containers h2 {
+    padding-top: 1em;
+    padding-left: 1.2em;
+    color: hsl(234, 12%, 34%);
+}
+
+.containers p {
+    padding-left: 1.8em;
+    padding-right: 5em;
+    color: hsl(229, 6%, 66%);
+}
+
+.containers img {
+    padding-left: 18em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.intro p {
+    margin-top: 3em;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+section {
+    color: hsl(229, 6%, 66%);
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.intro {
+    text-align: center;
+}
+
+@media (min-width:1000px) {
+
+    main {
+        max-height: 1000px;
+    }
+
+    .containers {
+        max-height: 700px;
+    }
+
+    .team_builder, .karma {
+        transform: translateY(-280px);
+        max-width: 400px;
+        max-height: 243.200px;
+    }
+
+    .supervisor {
+        transform: translateX(-440px) translateY(140px);
+        max-width: 400px;
+        max-height: 243.200px;
+    }
+
+    .calculator {
+        transform: translateY(-700px) translateX(440px);
+        max-width: 400px;
+        max-height: 243.200px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
